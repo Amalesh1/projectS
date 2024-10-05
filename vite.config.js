@@ -8,4 +8,7 @@ export default defineConfig({
   server: {
     host: true, // Allows access from local network
   },
+  build: {
+    outDir: 'dist', // Make sure the build output goes to the correct directory
+  },
 })
