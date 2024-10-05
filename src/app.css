@@ -1,0 +1,21 @@
+@media screen and (min-width: 1200px){
+    .room1 {
+        position: absolute;
+        bottom: 10%;
+        left: 12%;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 990px) {
+    .room1 {
+        position: absolute;
+        bottom: 10%;
+        left: 18%;
+    }
+}
+@media screen and (max-width: 989px) {
+    .room1 {
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+    }
+}
