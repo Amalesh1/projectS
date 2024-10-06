@@ -36,7 +36,7 @@ const TimeSince = ({ pastDate }) => {
   }, [pastDate]);
 
   return (
-    <div style={{backgroundColor: "lightskyblue", textAlign:'center', border: '2px solid pink', width: 370, marginLeft:30, marginTop:1, fontSize: 5}}>
+    <div style={{backgroundColor: "lightskyblue", textAlign:'center', border: '2px solid pink', width: 370, marginLeft:20, marginTop:1, fontSize: 5}}>
       <h3 style={{fontSize:10}}>Time Since First Text: {" "}
       <span style={{ color: "blue" }}>{timePassed.days} days</span>{" "}
       <span style={{color: "blueviolet"}}>{timePassed.hours} hours</span> {" "} 

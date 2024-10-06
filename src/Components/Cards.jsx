@@ -4,7 +4,7 @@ import Madam from "../assets/Madam1.jpg";
 function Cards() {
   return (
     <div className="Cards">
-      <div className="card" style={{ width: 370, marginLeft: 30, height: 500 }}>
+      <div className="card" style={{ width: 370, marginLeft: 20, height: 500 }}>
         <img
           src={Madam}
           className="card-img-top"

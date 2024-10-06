@@ -42,7 +42,7 @@ const Countdown = () => {
         <h1>!!!Happy Birthday Mikaa❤❤!!!</h1>
       ) : (
         <div style={{ textAlign: "center" }}>
-          <h3 style={{backgroundColor: "lightskyblue",  border: '2px solid pink', width: 370, marginLeft:30, marginTop:6, fontSize: 10}}>
+          <h3 style={{backgroundColor: "lightskyblue",  border: '2px solid pink', width: 370, marginLeft:20, marginTop:6, fontSize: 10}}>
             Countdown to 21st Birthday:{" "}
             <span style={{ color: "blue" }}>{timeLeft.days} Days </span>{" "}
             <span style={{color: "blueviolet"}}>{timeLeft.hours} Hours </span>{" "}
